@@ -76,6 +76,7 @@
     <Content Include="Category.aspx" />
     <Content Include="Global.asax" />
     <Content Include="home.aspx" />
+    <Content Include="ManageBeverage.aspx" />
     <Content Include="ManageCategory.aspx" />
     <Content Include="ManageProduct.aspx" />
     <Content Include="pics\americano.jpg" />
@@ -123,6 +124,7 @@
     <Content Include="style.css" />
     <Content Include="UserControl\ucCategory.ascx" />
     <Content Include="UserControl\usCategoryList.ascx" />
+    <Content Include="UserControl\WebUserControl1.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -155,6 +157,13 @@
     </Compile>
     <Compile Include="home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageBeverage.aspx.cs">
+      <DependentUpon>ManageBeverage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageBeverage.aspx.designer.cs">
+      <DependentUpon>ManageBeverage.aspx</DependentUpon>
     </Compile>
     <Compile Include="ManageCategory.aspx.cs">
       <DependentUpon>ManageCategory.aspx</DependentUpon>
@@ -213,6 +222,13 @@
     </Compile>
     <Compile Include="UserControl\usCategoryList.ascx.designer.cs">
       <DependentUpon>usCategoryList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\WebUserControl1.ascx.cs">
+      <DependentUpon>WebUserControl1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\WebUserControl1.ascx.designer.cs">
+      <DependentUpon>WebUserControl1.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
